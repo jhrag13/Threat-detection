@@ -1,0 +1,52 @@
+{
+  "twitter": {
+    "bearer_token": "AAAAAAAAAAAAAAAAAAAAAEQN4AEAAAAAT237qsl0QZ1Io6440bu4iyjFO0w%3Dwvs8DFljUG49XrAR8sQssL101KKV1WjaJxWURoQEN41e11T82s",
+    "consumer_key": "TzB6SlNBa0Rxb2RZUlgzX3M4OEU6MTpjaQE",
+    "consumer_secret": "YOUR_TWITTER_CO****vJ-5rX",
+    "access_token": "1964815890597486592-b4HwmhKEqBTuWyME3wL8CyaExTEQd7",
+    "access_token_secret": "toMcuEDM8XBUXFcqGBwbqr3RN5M55ZjCgd8gdSTF1fMcs"
+  },
+  "threat_keywords": [
+    "cve",
+    "vulnerability",
+    "exploit",
+    "0day",
+    "zero day",
+    "cyberattack",
+    "malware",
+    "ransomware",
+    "phishing",
+    "data breach",
+    "security flaw",
+    "patch now",
+    "threat",
+    "hack",
+    "breach",
+    "compromise",
+    "attack",
+    "intrusion"
+  ],
+  "nvd_api": {
+    "api_key": "****wqmwx9",
+    "update_interval_hours": 24
+  },
+  "monitoring": {
+    "check_interval_minutes": 30,
+    "max_tweets_per_check": 100,
+    "retweet_threshold": 50,
+    "like_threshold": 100
+  },
+  "alerting": {
+    "email_alerts": false,
+    "email_address": "jhrag4@gmail.com",
+    "slack_webhook": "YOUR_SLACK_WEBHOOK_URL_HERE",
+    "high_severity_only": true
+  },
+  "ssh_key_monitoring": {
+    "trusted_keys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC... user@trusted-machine",
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... admin@secure-server"
+    ],
+    "check_interval_hours": 12
+  }
+}
